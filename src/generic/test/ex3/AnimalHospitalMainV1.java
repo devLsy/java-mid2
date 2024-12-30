@@ -27,7 +27,7 @@ public class AnimalHospitalMainV1 {
         dogHospital.set(dog);
         // 반환타입이 부모 타입인 Animal이라서 다운 캐스팅 필요
         Dog boggerDog = (Dog) dogHospital.bigger(new Dog("멍멍이2", 200));
-
+        System.out.println("boggerDog = " + boggerDog);
         //코드 재사용성은 늘었지만 타입 안정성이 지켜지지 않고 다운 캐스팅 필요하게 되었음
     }
 }
