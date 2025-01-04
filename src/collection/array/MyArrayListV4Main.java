@@ -21,5 +21,10 @@ public class MyArrayListV4Main {
         //intList.add("list");  //컴파일 에러 발생
         Integer integer = intList.get(0);
         System.out.println("integer = " + integer);
+        
+        /*
+        배열리스트의 단점: 크기를 미리 알지 못하면 사용하지 않는 주소의 메모리 낭비,
+        index를 사용하지 않는 경우 성능이 떨어짐(데이터를 앞이나 중간에 추가할 경우 기존 데이터를 전부 오른쪽으로 미는 연산이 필요 등)
+        */
     }
 }
